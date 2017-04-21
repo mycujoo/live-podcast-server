@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>broadcasting - live podcast</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./main.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header clearfix">
+                <h3 class="text-muted">live podcast</h3>
+            </div>
+
+            <div class="jumbotron">
+                <h1>broadcasting</h1>
+                <br>
+                <p>room name: <input id="room-name" type="text"></p>
+                <br>
+                <p>
+                    <a id="start-btn" class="btn btn-lg btn-success" href="#" role="button">start!</a>
+                    <a id="stop-btn" class="btn btn-lg btn-danger" href="#" role="button">stop!</a>
+                </p>
+                <p>
+
+                </p>
+                <div class="canvas-container">
+                    <canvas id="canvas"></canvas>
+                </p>
+            </div>
+
+            <footer class="footer">
+                <p>&copy; 2017 mycujoo.tv</p>
+            </footer>
+        </div>
+
+        <script src="/public/primus.js"></script>
+        <script src="./host.js"></script>
+    </body>
+</html>

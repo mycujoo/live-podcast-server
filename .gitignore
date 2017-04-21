@@ -1,0 +1,4 @@
+node_modules
+logs
+recordings/*.mp3
+public/*.js
